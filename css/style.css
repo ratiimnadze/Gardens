@@ -170,12 +170,14 @@ h6 {
 .discover__desc {
     display: flex;
     gap: 89px;
+    flex-wrap: wrap;
 }
 .discover__text {
     color: white;
     display: flex;
     flex-direction: column;
     gap: 28px;
+    flex-basis: 40%;
 }
 .discover__text__heading {
     font-weight: 400;
